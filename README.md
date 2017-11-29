@@ -9,4 +9,4 @@ This was my first time working with php. It was also the first time I really und
 * PHP: First time making use of PHP for nonstatic pages, or to include other html segments.
 
 ## Now
-The site has been removed from the companies site, but I maintained the rights to the code. A generic version of the site is now live at http://www.craigorycoppola.com/projects/BowlingAlley/index
+The site has been removed from the companies site, but I maintained the rights to the code. A generic version of the site is now live at http://www.craigorycoppola.com/project/BowlingAlley/index
