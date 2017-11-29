@@ -1,0 +1,15 @@
+[27-Apr-2016 02:21:25 UTC] PHP Warning:  mysqli::mysqli(): (HY000/1045): Access denied for user 'user'@'localhost' (using password: NO) in /home/agentend3601/public_html/index.php on line 21
+[27-Apr-2016 13:56:07 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO), expecting ',' or ';' in /home/agentend3601/public_html/bowlarama/leagues.php on line 44
+[27-Apr-2016 14:59:57 UTC] PHP Parse error:  syntax error, unexpected '0' (T_LNUMBER), expecting ',' or ';' in /home/agentend3601/public_html/bowlarama/leagues.php on line 51
+[27-Apr-2016 16:31:49 UTC] PHP Parse error:  syntax error, unexpected '0' (T_LNUMBER), expecting ',' or ';' in /home/agentend3601/public_html/bowlarama/leagues.php on line 51
+[24-May-2016 13:11:36 UTC] PHP Parse error:  syntax error, unexpected '/' in /home/agentend3601/public_html/bowlarama/testing/index.php on line 37
+[27-Jul-2016 20:29:28 UTC] PHP Warning:  mysqli::mysqli(): (HY000/1045): Access denied for user 'danville2070_webUser'@'localhost' (using password: YES) in /home/danville2070/public_html/testing/index.php on line 21
+[27-Jul-2016 20:31:01 UTC] PHP Warning:  mysqli::mysqli(): (HY000/1045): Access denied for user 'danville2070_webUser'@'localhost' (using password: YES) in /home/danville2070/public_html/testing/index.php on line 21
+[27-Jul-2016 20:31:26 UTC] PHP Warning:  mysqli::mysqli(): (HY000/1045): Access denied for user 'danville2070_webUser'@'localhost' (using password: YES) in /home/danville2070/public_html/testing/leagues.php on line 21
+[27-Jul-2016 20:31:32 UTC] PHP Warning:  mysqli::mysqli(): (HY000/1045): Access denied for user 'danville2070_webUser'@'localhost' (using password: YES) in /home/danville2070/public_html/testing/pricing.php on line 19
+[27-Jul-2016 20:33:57 UTC] PHP Warning:  mysqli::mysqli(): (HY000/1045): Access denied for user 'agentend_user'@'localhost' (using password: YES) in /home/danville2070/public_html/testing/pricing.php on line 49
+[27-Jul-2016 20:34:13 UTC] PHP Warning:  mysqli::mysqli(): (HY000/1045): Access denied for user 'agentend_user'@'localhost' (using password: YES) in /home/danville2070/public_html/testing/pricing.php on line 49
+[27-Jul-2016 20:34:16 UTC] PHP Warning:  mysqli::mysqli(): (HY000/1045): Access denied for user 'agentend_user'@'localhost' (using password: YES) in /home/danville2070/public_html/testing/pricing.php on line 49
+[27-Jul-2016 20:35:21 UTC] PHP Warning:  mysqli::mysqli(): (HY000/1045): Access denied for user 'agentend_user'@'localhost' (using password: YES) in /home/danville2070/public_html/testing/pricing.php on line 49
+[27-Jul-2016 21:52:36 UTC] PHP Parse error:  syntax error, unexpected '$sql' (T_VARIABLE), expecting ',' or ';' in /home/danville2070/public_html/testing/restaurantMenu.php on line 29
+[27-Jul-2016 21:53:23 UTC] PHP Parse error:  syntax error, unexpected '$sql' (T_VARIABLE), expecting ',' or ';' in /home/danville2070/public_html/testing/restaurantMenu.php on line 29

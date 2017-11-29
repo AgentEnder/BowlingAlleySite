@@ -1,0 +1,187 @@
+html {
+  font-family: Verdana, sans-serif;
+  font-size: 16px;
+}
+
+table.default, th.default, td.default {
+     border: 1px solid black;
+	 padding:1vw;
+	 color:rgb(230,230,230);
+	 font-size:1em;
+}
+
+#cssmenu{
+	height:45px;
+	width:100vw;
+	background-color:rgb(60,60,60);
+	border-bottom: 2px;
+	border-bottom-style: solid;
+	border-bottom-color: rgb(0,0,0);
+}
+
+#cssmenu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+
+}
+
+#cssmenu li{
+	display: inline-block;
+	border-bottom: 2px;
+	border-bottom-style: solid;
+	border-bottom-color: rgb(0,0,0);
+}
+
+#cssmenu li:not(.right) {
+    float: left;
+}
+#cssmenu li.right{
+	float: right;
+	margin-right:15px;
+}
+
+#cssmenu li a {
+	background-color:rgb(60,60,60);
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 13px 16px;
+    text-decoration: none;
+	border-right: 2px;
+	border-right-style: solid;
+	border-right-color: rgb(0,0,0);
+}
+
+#cssmenu li:not(.right) a{ 
+	border-right: 2px;
+	border-right-style: solid;
+	border-right-color: rgb(0,0,0);
+}
+#cssmenu li.right a{
+	border-left: 2px;
+	border-left-style: solid;
+	border-left-color: rgb(0,0,0);
+}
+
+#cssmenu li a {
+	background-color:rgb(60,60,60);
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 13px 16px;
+    text-decoration: none;
+	border-right: 2px;
+	border-right-style: solid;
+	border-right-color: rgb(0,0,0);
+}
+
+#cssmenu li a:hover {
+    background-color: #111;
+}
+
+#menuShowItem{
+	display:none;
+}
+
+
+
+body{
+	margin:0px;
+	background-color:black;
+}
+div.centerHorizontally table{
+	 margin: 0 auto;
+	 width:90%;
+}
+#header{
+	width:100%;
+	/*position:fixed;*/
+	background-color:rgb(60,60,60);
+	top:0px;
+	margin-top:0px;
+	z-index:2;
+	white-space:nowrap;
+}
+#content p a {
+  color:rgb(255,0,0);
+  text-decoration: none;
+ }
+#menuTitle{
+	font-size:2vw;
+	display:inline-block;
+	text-decoration:none
+}
+#menuItem{
+	color:rgb(160,160,160);
+	font-size:1vw;
+	display:inline-block;
+}
+#content{
+	width:80vw;
+	border-radius:10px;
+	height:100%;
+	min-height:91vh;
+	text-align:center;
+	margin-left:10vw;
+	opacity:.9;
+	background-color:rgb(90,90,90);
+	overflow:auto;
+}
+#background{
+	width:100%;
+	min-height:91vh;
+	border:0px;
+	background-size:cover;
+	background-color:rgb(220,220,220);
+	background-image:url("../img/bowlingalley.jpg")
+}
+#footer{
+	width:100%;
+	min-height:3vh;
+	font-size:2 vw;
+	color:rgb(255,255,255);
+	background-color:rgb(0,0,0);
+}
+.show{
+	display:block;
+}
+.leagueDescription{
+	width:100%;
+	display:none;
+	text-align:center;
+}
+@media screen and (max-width: 768px) {
+	#content{
+		margin-left:0px;
+		width:100%;
+	}
+	#nav {
+		width:1.4em;
+		display: block;
+		background:#ddd;
+		font-size:1.35em;
+		text-align: center;
+	}
+	#cssmenu.js {
+		display: none;
+	}
+	#cssmenu ul {
+		width:100%;
+		list-style:none;
+	}
+	#cssmenu li:not(#menuShowItem) {
+		width:100%;
+		border-right:none;
+		display:none;
+	}
+	#cssmenu li.right{
+		margin-right:0px;
+	}
+	#menuShowItem{
+		width:100%;
+		border-right:none;
+		display:block;
+	}
+}
+	
